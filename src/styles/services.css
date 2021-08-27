@@ -1,0 +1,38 @@
+#services .content {
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 4rem;
+}
+
+#services .content .service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 40px;
+    padding: 10px;
+    /* box-shadow: 3px 3px 7px rgb(0,0,0,.4); */
+    height: 400px;
+}
+
+#services .content .service .service-icon {
+    width: 120px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#services .content .service .service-icon.teal {
+    background-color: teal;
+}
+#services .content .service .service-icon.orangered {
+    background-color: #f1ac46;
+}
+#services .content .service .service-icon.rebeccapurple {
+    background-color: rebeccapurple;
+}
+
+
+#services .content .service .service-title {
+    font-weight: bold;
+}
